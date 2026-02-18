@@ -1,0 +1,14 @@
+{
+  "name": "mini-defi-staking",
+  "version": "1.0.0",
+  "description": "Simple staking protocol",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run deploy.js --network localhost"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "hardhat": "^2.22.0"
+  }
+}
